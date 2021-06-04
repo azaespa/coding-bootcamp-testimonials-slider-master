@@ -44,6 +44,7 @@ function paintTestimonial(n) {
  }
  
  loadTestimonial(testimonials[n]);
+ console.log(testimonialIndex);
 }
 
 function handleClickNext(){
