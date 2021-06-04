@@ -29,11 +29,14 @@ The designs were created to the following widths:
 -body
 --section.testimonial testimonial--statement-container
 ---p.testimonial__statement
----hgroup.testimonial__student-info
-----h4.testimonial__student-info__full-name
-----h4.testimonial__student-info__job-role
+---hgroup.testimonial__student
+----h4.testimonial__student__full-name
+----h4.testimonial__student__job-role
 --section.testimonial testimonial--slider-container
 ---div.testimonial__slider
-----div.testimonial__slider__left
-----div.testimonial__slider__right
+----figure.testimonial__slider__prev
+----figure.testimonial__slider__next
 ---img.testimonial__student-image
+
+testimonial__dynamic = for all elements that's dynamic
+cant do this unless testimonial__dynamic is the parent node 
